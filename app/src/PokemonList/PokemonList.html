@@ -1,0 +1,14 @@
+<div flex-gt-sm="100" flex>
+
+    <md-toolbar layout="row" class="md-hue-5">
+        <div class="md-toolbar-tools">
+            <span>Покемоны</span>
+        </div>
+    </md-toolbar>
+      
+    <md-subheader class="md-no-sticky">Список покемонов</md-subheader>
+    
+    <pokemon-list-item pokemon="singlePokemon" ng-repeat="singlePokemon in $ctrl.pokemons">
+    </pokemon-list-item>
+
+</div>
